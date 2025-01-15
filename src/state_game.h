@@ -20,9 +20,9 @@ void Game()
     int[500] Text;
     int[20] Nr;
     if(GameType == Relative)
-        Timer = 10; //150
+        Timer = 150;
     else
-        Timer = 10; //300;
+        Timer = 300;
     while (GameState == GSGame)
     {
         if(gamepad_left() % 10 == 1)

@@ -44,70 +44,59 @@ int* filenameToAudio(int* FileName)
 		*result = 3;
 	}
 
-	if (strcmp(FileName, "fiveminute") == 0)
+
+	if (strcmp(FileName, "menu") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 4;
 	}
 
-	if (strcmp(FileName, "goodbye") == 0)
+	if (strcmp(FileName, "one") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 5;
 	}
 
-	if (strcmp(FileName, "menu") == 0)
+	if (strcmp(FileName, "oneminute") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 6;
 	}
 
-	if (strcmp(FileName, "one") == 0)
+	if (strcmp(FileName, "readygo") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 7;
 	}
 
-	if (strcmp(FileName, "oneminute") == 0)
+	if (strcmp(FileName, "select") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 8;
 	}
 
-	if (strcmp(FileName, "readygo") == 0)
+	if (strcmp(FileName, "three") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 9;
 	}
 
-	if (strcmp(FileName, "select") == 0)
+	if (strcmp(FileName, "timeover") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 10;
 	}
 
-	if (strcmp(FileName, "three") == 0)
+	if (strcmp(FileName, "two") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
 		*result = 11;
 	}
 
-	if (strcmp(FileName, "timeover") == 0)
-	{
-		result = (int*) malloc(sizeof(int));
-		*result = 12;
-	}
-
-	if (strcmp(FileName, "two") == 0)
-	{
-		result = (int*) malloc(sizeof(int));
-		*result = 13;
-	}
-
 	if (strcmp(FileName, "welcome") == 0)
 	{
 		result = (int*) malloc(sizeof(int));
-		*result = 14;
+		*result = 12;
 	}
 
 	

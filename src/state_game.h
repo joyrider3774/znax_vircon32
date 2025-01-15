@@ -83,9 +83,6 @@ void Game()
             Timer-= 1;
             switch (Timer)
             {
-                case 300 :
-                    CAudio_PlaySound(Sounds[SND_5MINUTE],0);
-                    break;
                 case 60:
                     CAudio_PlaySound(Sounds[SND_1MINUTE],0);
                     break;

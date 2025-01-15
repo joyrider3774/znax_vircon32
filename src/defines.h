@@ -19,7 +19,7 @@
 #define Fixed 0
 #define Relative 1
 
-#define NrOfSounds 14
+#define NrOfSounds 12
 #define NrOfRows 10
 #define NrOfCols 14
 #define NrOfBlockColors 5
@@ -32,19 +32,17 @@
 #define TileWidth 35
 #define TileHeight 35
 #define SND_READYGO 0
-#define SND_5MINUTE 1
-#define SND_1MINUTE 2
-#define SND_3 3
-#define SND_2 4
-#define SND_1 5
-#define SND_TIMEOVER 6
-#define SND_MENU 7
-#define SND_SELECT 8
-#define SND_WELCOME 9
-#define SND_GOODBYE 10
-#define SND_DELETE 11
-#define SND_BLOCKSELECT 12
-#define SND_ERROR 13
+#define SND_1MINUTE 1
+#define SND_3 2
+#define SND_2 3
+#define SND_1 4
+#define SND_TIMEOVER 5
+#define SND_MENU 6
+#define SND_SELECT 7
+#define SND_WELCOME 8
+#define SND_DELETE 9
+#define SND_BLOCKSELECT 10
+#define SND_ERROR 11
 
 #define SCALE 1.5
 

@@ -24,12 +24,10 @@ void LoadSounds()
     Sounds[SND_2] = CAudio_LoadSound("two");
     Sounds[SND_3] = CAudio_LoadSound("three");
     Sounds[SND_1MINUTE] = CAudio_LoadSound("oneminute");
-    Sounds[SND_5MINUTE] = CAudio_LoadSound("fiveminute");
     Sounds[SND_TIMEOVER] = CAudio_LoadSound("timeover");
     Sounds[SND_MENU] = CAudio_LoadSound("menu");
     Sounds[SND_SELECT] = CAudio_LoadSound("select");
     Sounds[SND_WELCOME] = CAudio_LoadSound("welcome");
-    Sounds[SND_GOODBYE] = CAudio_LoadSound("goodbye");
     Sounds[SND_DELETE] = CAudio_LoadSound("delete");
     Sounds[SND_BLOCKSELECT] = CAudio_LoadSound("blockselect");
     Sounds[SND_ERROR] = CAudio_LoadSound("error");

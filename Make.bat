@@ -34,8 +34,6 @@ wav2vircon assets\music\title.wav -o obj\title.vsnd || goto :failed
 wav2vircon assets\sound\blockselect.wav -o obj\blockselect.vsnd || goto :failed
 wav2vircon assets\sound\delete.wav -o obj\delete.vsnd || goto :failed
 wav2vircon assets\sound\error.wav -o obj\error.vsnd || goto :failed
-wav2vircon assets\sound\fiveminute.wav -o obj\fiveminute.vsnd || goto :failed
-wav2vircon assets\sound\goodbye.wav -o obj\goodbye.vsnd || goto :failed
 wav2vircon assets\sound\menu.wav -o obj\menu.vsnd || goto :failed
 wav2vircon assets\sound\one.wav -o obj\one.vsnd || goto :failed
 wav2vircon assets\sound\oneminute.wav -o obj\oneminute.vsnd || goto :failed

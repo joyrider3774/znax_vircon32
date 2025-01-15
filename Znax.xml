@@ -17,8 +17,6 @@
 		<sound path="obj/blockselect.vsnd" />
 		<sound path="obj/delete.vsnd" />
 		<sound path="obj/error.vsnd" />
-		<sound path="obj/fiveminute.vsnd" />
-		<sound path="obj/goodbye.vsnd" />
 		<sound path="obj/menu.vsnd" />
 		<sound path="obj/one.vsnd" />
 		<sound path="obj/oneminute.vsnd" />
